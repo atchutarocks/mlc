@@ -86,8 +86,24 @@ unit_mapping = {
     "oz": "ounce",
     "ton": "ton",
     "v": "volt",
-    "w": "watt"
+    "w": "watt",
+    "mv": "millivolt",
+    "kv": "kilovolt",
+    "cf": "cubic foot",
+    "ml": "millilitre",
+    "l": "litre",
+    "μl": "microlitre",
+    "cup": "cup",
+    "fl oz": "fluid ounce",
+    "cl": "centilitre",
+    "gal": "gallon",
+    "imp gal": "imperial gallon",
+    "pt": "pint",
+    "dl": "decilitre",
+    "qt": "quart",
+    "cu in": "cubic inch"
 }
+
 
 # Regex to capture number followed by unit
 pattern = r"(\d+(?:\.\d+)?)\s*(\w+|\"|')"
